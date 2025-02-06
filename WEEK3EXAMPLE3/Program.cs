@@ -20,7 +20,8 @@ namespace WEEK3EXAMPLE3
             {
                 Console.WriteLine("Please input a string?");
                 input = Console.ReadLine(); // read user input stirng
-                Console.WriteLine("Please input a number for options below:\n 1: Reverse String \n 2: Number of Vowels \n 3: Check Palindrome");
+                Console.WriteLine("Please input a number for options below:" +
+                    "\n 1: Reverse String \n 2: Number of Vowels \n 3: Check Palindrome \n 4: Exit");
                 selection = Convert.ToInt32(Console.ReadLine()); // read option user selects
                 switch (selection)
                 {
