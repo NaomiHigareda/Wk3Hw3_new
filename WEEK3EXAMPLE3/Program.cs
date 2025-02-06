@@ -38,7 +38,7 @@ namespace WEEK3EXAMPLE3
                         Console.WriteLine("Exit");
                         break;
                 }
-            } while (selection <=4);
+            } while (selection <4);
            
         }
         public static string ReverseString(string input)
